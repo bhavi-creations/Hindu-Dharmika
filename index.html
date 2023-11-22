@@ -21,10 +21,9 @@
 
 <body id="section_1">
 
-    <header class="site-header">
+    <header class="site-header" id="headpage">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-8 col-12 d-flex flex-wrap">
                     <p class="d-flex me-4 mb-0">
                         <i class="bi-geo-alt me-2"></i>
@@ -86,24 +85,32 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#top">Home</a>
+                        <a class="nav-link click-scroll" style="font-weight:bold" href="#top">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#about">About</a>
+                        <a class="nav-link click-scroll" style="font-weight:bold" href="#about">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#bank_details">Bank Details</a>
+                        <a class="nav-link click-scroll" style="font-weight:bold" href="#seva1">Seva 1</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" style="font-weight:bold" href="#seva2">Seva 2</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" style="font-weight:bold" href="#bank_details">Bank Details</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link click-scroll" href="#contact">Contact</a>
+                        <a class="nav-link click-scroll" style="font-weight:bold" href="#contact">Contact</a>
                     </li>
 
-                    <li class="nav-item ms-3">
+                    <!-- <li class="nav-item ms-3">
                         <a class="nav-link custom-btn custom-border-btn btn" href="#booking">Booking</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -292,6 +299,54 @@
             </div>
         </section>
 
+        <!-- seva cards -->
+        <section class="testimonial-wrapper space-top space-md-bottom">
+            <div class="container">
+                <div class="row  text-center justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <!-- <div class="section-title">
+                            <div class="sec-icon">
+                                <i class="flaticon-ecg"></i>
+                            </div> -->
+                            <h2 class="h1 " style="font-weight:bold">Our Sevas</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda cum, repellendus deserunt praesentium ipsam hic consequuntur dicta modi quo aliquid aperiam corporis laudantium! Quod, temporibus commodi in quam dicta error.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            <!-- <div class="container2 m-5 shadow"> -->
+                <div class="row">
+                    <div class="col-4 shadow ms-5 ">
+                        <div class="card">
+                        <div class="card-body">  
+                           <img src="./images/seva1.jpg" height="250" width="300"/> 
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="https://pages.razorpay.com/AYODHYASRIRAMKALYANAYATRAPOOJA" target="_blank" class="btn btn-primary">Pay Now</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4 shadow ms-5">
+                      <div class="card ">
+                        <div class="card-body">
+                          <img src="./images/seva2.jpg" height="250" width="300"/>
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="https://pages.razorpay.com/AYODHYASRIRAMKALYANATOUR" target="_blank" class="btn btn-primary">Pay Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+                
+        </section>
+                    
+    
+                
+
+        <!-- Bank details -->
 
         <section class="about-section section-padding" id="bank_details">
             <div class="container">
@@ -354,7 +409,7 @@
             </div>
         </section> -->
 
-        <section class="volunteer-section section-padding" id="booking">
+        <!-- <section class="volunteer-section section-padding" id="booking">
             <div class="container">
                 <div class="row">
 
@@ -412,7 +467,9 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
+
+        <!-- customers -->
 
         <section class="testimonial-section section-padding section-bg">
             <div class="container">
@@ -494,6 +551,7 @@
             </div>
         </section>
 
+          <!-- contact us -->
 
         <section class="contact-section section-padding" id="contact">
             <div class="container">
@@ -543,7 +601,7 @@
 
                     <div class="col-lg-5 col-12 mx-auto">
                         <form class="custom-form contact-form" action="#" method="post" role="form">
-                            <h2>Contact form</h2>
+                            <h1>Contact form</h1>
                             <p></p>
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
@@ -572,6 +630,8 @@
         </section>
     </main>
 
+
+    <!-- Footer -->
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -580,7 +640,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12 mb-4">
-                    <h5 class="site-footer-title mb-3">Quick Links</h5>
+                    <h5 class="site-footer-title mb-3" style="color:rgb(172, 40, 40)">Quick Links</h5>
 
                     <ul class="footer-menu">
                         <li class="footer-menu-item"><a href="#top" class="footer-menu-link">Home</a></li>
@@ -596,7 +656,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-6 col-12 mx-auto">
-                    <h5 class="site-footer-title mb-3">Contact Infomation</h5>
+                    <h5 class="site-footer-title mb-3" style="color:white">Contact Infomation</h5>
 
                     <p class="text-white d-flex mb-2">
                         <i class="bi-telephone me-2"></i>
@@ -662,6 +722,7 @@
             </div>
         </div>
     </footer>
+
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>

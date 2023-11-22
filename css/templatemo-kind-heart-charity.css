@@ -5,7 +5,13 @@ TemplateMo 581 Kind Heart Charity
 https://templatemo.com/tm-581-kind-heart-charity
 
 */
-
+.button {
+  height:100px;
+  width:100px;
+}
+#headpage {
+  background-color:liner-gradient(to top yellow, red);
+}
 
 
 @font-face {
@@ -49,17 +55,18 @@ https://templatemo.com/tm-581-kind-heart-charity
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #5bc1ac;
-  --secondary-color:              #5a6f80;
+  --primary-color:                #c72764;
+  /* heading */
+  --secondary-color:               #EE4823; 
   --section-bg-color:             #f0f8ff;
-  --site-footer-bg-color:         #44525d;
-  --custom-btn-bg-color:          #597081;
-  --custom-btn-bg-hover-color:    #5bc1ac;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
+  --site-footer-bg-color:         #e0b686;
+  --custom-btn-bg-color:          #c46323;
+  --custom-btn-bg-hover-color:    rgb(207, 67, 90);
+  --dark-color:                   rgb(223, 57, 201);
+  --p-color:                      rgb(207, 29, 133);
   --border-color:                 #e9eaeb;
 
-  --body-font-family:             'Metropolis', sans-serif;
+  --body-font-family:             'Roboto', sans-serif;
 
   --h1-font-size:                 52px;
   --h2-font-size:                 46px;
@@ -90,14 +97,14 @@ body {
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
-
+/* 
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: var(--dark-color);
-}
+} */
 
 h1,
 h2,
@@ -116,7 +123,8 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary-color);
+  /* color: var(--secondary-color); */
+  
   font-size: var(--h2-font-size);
   letter-spacing: -2px;
 }
@@ -312,7 +320,8 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--secondary-color);
+  /* background: var(--secondary-color); */
+  background:#ca476e;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -323,7 +332,8 @@ strong {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
-  color: var(--custom-btn-bg-color);
+  /* color: var(--custom-btn-bg-color); */
+  color:#C70039;
   margin-top: 8px;
   padding: 12px 25px;
 }
@@ -358,7 +368,8 @@ strong {
 }
 
 .navbar-brand {
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color:#C70039;
   font-size: var(--h6-font-size);
   font-weight: var(--font-weight-bold);
 }
@@ -530,7 +541,9 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
+  background:#ff6745;
+  /* background-color:liner-gradient(yellow,red); */
   padding-top: 15px;
   padding-bottom: 10px;
 }
@@ -1066,10 +1079,12 @@ blockquote::before {
 -----------------------------------------*/
 .contact-section {
   background: var(--white-color);
+  /* background:red; */
 }
 
 .contact-form {
   background: var(--section-bg-color);
+  /* background:#b97287 */
   border-radius: var(--border-radius-small);
   padding: 40px;
 }
@@ -1086,6 +1101,10 @@ blockquote::before {
   width: 100%;
 }
 
+/* seva */
+.card {
+  border-width:0px;
+}
 
 /*---------------------------------------
   CUSTOM FORM               
@@ -1276,12 +1295,14 @@ blockquote::before {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color: var(--site-footer-bg-color);
+  /* background-color: var(--site-footer-bg-color); */
+  background: linear-gradient(#d29c66,#f6ddc6 30%,#f6ddc6 70%,#d29c66);
   padding-top: 70px;
 }
 
 .site-footer-bottom {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
+  background-color:#ca476e;
   position: relative;
   z-index: 2;
   margin-top: 70px;
