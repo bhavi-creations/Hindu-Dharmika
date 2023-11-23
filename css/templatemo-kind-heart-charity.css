@@ -88,6 +88,7 @@ https://templatemo.com/tm-581-kind-heart-charity
   --font-weight-bold:             700;
 }
 
+
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family); 
@@ -332,8 +333,8 @@ strong {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn {
-  /* color: var(--custom-btn-bg-color); */
-  color:#C70039;
+  background-color: var(--custom-btn-bg-color);
+  color:#990000;
   margin-top: 8px;
   padding: 12px 25px;
 }
@@ -400,7 +401,8 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--p-color);
+  /* color: var(--p-color); */
+  color:#990000;
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-medium);
   position: relative;
@@ -542,7 +544,7 @@ strong {
 -----------------------------------------*/
 .site-header {
   /* background: var(--primary-color); */
-  background:#ff6745;
+  background:#990000;
   /* background-color:liner-gradient(yellow,red); */
   padding-top: 15px;
   padding-bottom: 10px;
@@ -1296,13 +1298,13 @@ blockquote::before {
 -----------------------------------------*/
 .site-footer {
   /* background-color: var(--site-footer-bg-color); */
-  background: linear-gradient(#d29c66,#f6ddc6 30%,#f6ddc6 70%,#d29c66);
+  background: linear-gradient(#FD841F,#f15431 30%,#E14D2A 70%,#FD841F);
   padding-top: 70px;
 }
 
 .site-footer-bottom {
   /* background-color: var(--secondary-color); */
-  background-color:#ca476e;
+  background-color:#990000;
   position: relative;
   z-index: 2;
   margin-top: 70px;
@@ -1333,7 +1335,7 @@ blockquote::before {
 }
 
 .site-footer .custom-btn:hover {
-  background: var(--primary-color);
+  background-color: #990000;
 }
 
 
