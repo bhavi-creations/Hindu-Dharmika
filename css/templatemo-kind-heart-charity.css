@@ -5,7 +5,7 @@ TemplateMo 581 Kind Heart Charity
 https://templatemo.com/tm-581-kind-heart-charity
 
 */
-.button {
+#button {
   height:100px;
   width:100px;
 }
@@ -62,8 +62,8 @@ https://templatemo.com/tm-581-kind-heart-charity
   --site-footer-bg-color:         #e0b686;
   --custom-btn-bg-color:          #c46323;
   --custom-btn-bg-hover-color:    rgb(207, 67, 90);
-  --dark-color:                   rgb(223, 57, 201);
-  --p-color:                      rgb(207, 29, 133);
+  --dark-color:                   rgb(223, 57, 71);
+  --p-color:                      rgb(16, 13, 35);
   --border-color:                 #e9eaeb;
 
   --body-font-family:             'Roboto', sans-serif;
@@ -98,14 +98,14 @@ body {
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
-/* 
+
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: var(--dark-color);
-} */
+}
 
 h1,
 h2,
@@ -322,7 +322,7 @@ strong {
 -----------------------------------------*/
 .custom-btn {
   /* background: var(--secondary-color); */
-  background:#ca476e;
+  background:#EE4823;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
